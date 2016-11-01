@@ -1,0 +1,15 @@
+{
+  "name": "nightwatch-initial-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "nightwatch -c ./nightwatch.config.js --env default"
+  },
+  "devDependencies": {
+    "babel-register": "^6.18.0",
+    "nightwatch": "^0.9.8",
+    "nightwatch-custom-commands-assertions": "^1.0.5",
+    "selenium-server-standalone-jar": "^3.0.1"
+  }
+}
