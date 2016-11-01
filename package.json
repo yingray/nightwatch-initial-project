@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "babel-register": "^6.18.0",
+    "chromedriver": "^2.25.1",
     "nightwatch": "^0.9.8",
     "nightwatch-custom-commands-assertions": "^1.0.5",
     "selenium-server-standalone-jar": "^3.0.1"

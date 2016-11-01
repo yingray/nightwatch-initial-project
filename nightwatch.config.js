@@ -4,16 +4,16 @@ console.log(`Selenium Server Standalone Version: ${jar.version}`)
 
 module.exports = {
 
-    src_folders: ['./test/e2e/specs'],
-    output_folder: './test/e2e/results',
+    src_folders: ['./specs'],
+    output_folder: './results',
     custom_commands_path : 'node_modules/nightwatch-custom-commands-assertions/js/commands',
     custom_assertions_path : 'node_modules/nightwatch-custom-commands-assertions/js/assertions',
-    page_objects_path: ['./e2e/pages'],
+    page_objects_path: ['./pages'],
 
     selenium: {
         start_process: true,
         server_path: jar.path,
-        log_path: './e2e/results',
+        log_path: './results',
         host: '127.0.0.1',
         port: 4444
     },
@@ -24,7 +24,7 @@ module.exports = {
             selenium_port: 4444,
             sreenshots: {
                 enable: true,
-                path: './e2e/results/screenshots'
+                path: './results/screenshots'
             },
             desiredCapabilities: {
                 browserName: 'chrome',
