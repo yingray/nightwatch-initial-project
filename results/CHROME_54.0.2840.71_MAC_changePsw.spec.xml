@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="changePsw.spec"
+    errors="0" failures="0" hostname="" id="" package="changePsw.spec" skipped="0"
+    tests="1" time="13.25" timestamp="Tue, 01 Nov 2016 09:01:14 GMT">
+  
+    <testcase name="Change Password" time="13.25" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

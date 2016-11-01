@@ -3,7 +3,7 @@ module.exports = {
     password: 'Abcd1234',
     urls: {
         // login: 'https://id-test.fuhu.org/build',
-        login: 'https://www.google.com',
-        forgetPsw: 'http://localhost:3000/build/forgetPassword'
+        login: 'https://id-test.fuhu.org/build',
+        forgetPsw: 'https://id-test.fuhu.org/build/forgetPassword'
     }
 }
